@@ -1,0 +1,20 @@
+.body {
+    width: 320px;
+    padding: 20px;
+    background-color:silver;
+}
+
+.count {
+    margin: 20px auto 20px auto;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.reset {
+    margin: 20px 90px;
+}
