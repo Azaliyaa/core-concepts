@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Button } from '../Button/Button'
+import { Header } from './Header/Header'
 import './Counter.css'
 
 function Counter() {
@@ -7,7 +8,7 @@ function Counter() {
 
     return (
         <div className="body">
-            <h1 className="count" >{`Count: ${count}`}</h1>
+            <Header value={count} />
             <div className="buttons">
                 <Button onClick={() => setCount(count - 1)} value="decrement" />
                 <Button onClick={() => setCount(count + 1)} value="increment" />

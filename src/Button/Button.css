@@ -4,4 +4,9 @@
     background-color: lightgray;
     border: 0;
     text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.button:hover {
+    opacity: 0.9;
 }

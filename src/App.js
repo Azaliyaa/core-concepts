@@ -1,8 +1,12 @@
 import { Counter } from './Counter/Counter'
+import { SearchForm } from './SearchForm/SearchForm'
 
-function App() {
+function App() { 
   return (
-    <Counter />
+    <>
+      <Counter />
+      <SearchForm />
+    </>
   );
 }
 
