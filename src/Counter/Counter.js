@@ -10,8 +10,8 @@ function Counter() {
         <div className="body">
             <Header value={count} />
             <div className="buttons">
-                <Button onClick={() => setCount(count - 1)} value="decrement" />
-                <Button onClick={() => setCount(count + 1)} value="increment" />
+                <Button onClick={(prevCount) => setCount(prevCount - 1)} value="decrement" />
+                <Button onClick={(prevCount) => setCount(prevCount + 1)} value="increment" />
             </div>
             <Button onClick={() => setCount(0)} buttonClass="reset" value="reset" />
         </div>
