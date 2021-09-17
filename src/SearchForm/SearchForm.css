@@ -1,0 +1,15 @@
+.search_form {
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.search_button {
+    width: 233px;
+    height: 57px;
+    background-color: #F65261;
+    border: 0;
+    outline: none;
+    color: white;
+    margin-left: 14px;
+}
